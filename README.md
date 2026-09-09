@@ -38,3 +38,7 @@ the stored bump.
 **Amount checks.** Each transfer instruction rejects a zero amount. No upper
 bound check is necessary. The System Program refuses a transfer that leaves the
 source below its rent-exempt minimum.
+
+## Test passing capture
+
+![All tests passing](assets/vault_tests.png)
